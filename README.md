@@ -16,15 +16,16 @@ La asignatura de **Gemelos Digitales** forma parte del plan de estudios de la ca
 El objetivo principal de esta práctica es determinar la tasa de liberación del fármaco en diferentes hidrogeles (N45, N32, N35 y N36-2MBA3), basándose en datos experimentales de liberación acumulada a lo largo del tiempo. 
 
 Para caracterizar la dinámica de liberación, se emplean modelos de regresión no lineal:
-1. **Ecuación de Peppas:** $x(t) = k t^n$
-2. **Farmacocinética de primer orden:** $x(t) = \beta (1 - e^{-kt})$
-3. **Modelos Eureqa:** Funciones del tiempo y funciones diferenciales obtenidas mediante regresión simbólica.
+1. **Ecuación de Peppas:** $$x(t) = k t^n$$
+2. **Farmacocinética de primer orden:** $$x(t) = \beta (1 - e^{-kt})$$
+3. **Eureqa (Función del tiempo):** $$x(t) = \rho_1 \sqrt{t} + \rho_2 t$$
+4. **Eureqa (Función diferencial):** $$\frac{dx}{dt} = \frac{\rho_1}{\rho_2 + \rho_3 t}$$
 
 ## Palabras clave
 Liberación de fármacos; Hidrogeles; Regresión no lineal; Bioestadísticos; Ecuaciones diferenciales ordinarias; Modelos matemáticos
 
 ## Actividades a realizar
-1. **Procesamiento de datos:** Importar y graficar los datos experimentales de liberación acumulativa de los hidrogeles.
+1. **Procesamiento de datos:** Importar los datos experimentales de liberación acumulativa de los hidrogeles.
 2. **Ajuste de modelos:** Realizar la regresión no lineal para los modelos de Peppas y Farmacocinética de primer orden.
 3. **Análisis Bioestadístico:** Calcular parámetros como el error estándar (SE), margen de error (MoE), intervalos de confianza al 95% (CI95), valor p, R-cuadrada y el Criterio de Información de Akaike (AICc).
 4. **Experimentación in silico con Eureqa:** Evaluar funciones del tiempo y modelos diferenciales para determinar cuál describe con mayor precisión la dinámica de cada hidrogel.
