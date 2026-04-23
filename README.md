@@ -19,7 +19,7 @@ Para caracterizar la dinámica de liberación, se emplean modelos de regresión 
 1. **Ecuación de Peppas:** $$x(t) = k t^n$$
 2. **Farmacocinética de primer orden:** $$x(t) = \beta (1 - e^{-kt})$$
 3. **Eureqa (Función del tiempo):** $$x(t) = \rho_1 \sqrt{t} + \rho_2 t$$
-4. **Eureqa (Función diferencial):** $$\frac{dx}{dt} = \frac{\rho_1}{\rho_2 + \rho_3 t}$$
+4. **Eureqa (Función diferencial):** $$\frac{dx}{dt} = \{\rho_1}{\rho_2 + \rho_3 t}$$
 
 ## Palabras clave
 Liberación de fármacos; Hidrogeles; Regresión no lineal; Bioestadísticos; Ecuaciones diferenciales ordinarias; Modelos matemáticos
