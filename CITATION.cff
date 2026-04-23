@@ -13,13 +13,13 @@ authors:
     email: l22211755@tectijuana.edu.mx
     name-particle: MARIA
     affiliation: Tecnológico Nacional de México
-repository-code: 'https://github.com/BelenGalindo/Practica1GD.git'
+repository-code: ''
 keywords:
-  - Bioestadísticos
-  - Modelo matemático
+  - Liberación de fármacos
+  - Hidrogeles
   - Regresión no lineal
-  - Simulaciones numéricas
-  - Sistemas dinámicos no lineales.
+  - Bioestadísticos
+  - Ecuaciones diferenciales ordinarias
 license: BSD-2-Clause
 version: '1.0'
-date-released: '2026-02-18'
+date-released: '2026-04-22'
