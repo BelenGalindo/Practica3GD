@@ -21,19 +21,20 @@ Para caracterizar la dinámica de liberación, se emplean modelos de regresión 
 3. **Modelos Eureqa:** Funciones del tiempo y funciones diferenciales obtenidas mediante regresión simbólica.
 
 ## Palabras clave
-Liberación de fármacos; Hidrogeles; Regresión no lineal; Bioestadísticos; Gemelos Digitales; MATLAB.
+Liberación de fármacos; Hidrogeles; Regresión no lineal; Bioestadísticos; Ecuaciones diferenciales ordinarias; Modelos matemáticos
 
 ## Actividades a realizar
 1. **Procesamiento de datos:** Importar y graficar los datos experimentales de liberación acumulativa de los hidrogeles.
 2. **Ajuste de modelos:** Realizar la regresión no lineal para los modelos de Peppas y Farmacocinética de primer orden.
 3. **Análisis Bioestadístico:** Calcular parámetros como el error estándar (SE), margen de error (MoE), intervalos de confianza al 95% (CI95), valor p, R-cuadrada y el Criterio de Información de Akaike (AICc).
 4. **Experimentación in silico con Eureqa:** Evaluar funciones del tiempo y modelos diferenciales para determinar cuál describe con mayor precisión la dinámica de cada hidrogel.
-5. **Visualización de resultados:** Generar gráficas comparativas entre los datos experimentales y los modelos ajustados.
+
 
 ## Lista de archivos incluidos en el repositorio
 * **Cuaderno computacional de MATLAB:** Archivo `.mlx` con el código de regresión y análisis.
 * **Análisis matemático y estadístico:** Documento PDF con los resultados de las tablas bioestadísticas.
 * **Gráficas de simulación:** Imágenes de las curvas de ajuste para cada modelo.
+* **Datos experimentales:**  Archivo `.csv`.
 
 ## Referencias
 [1] P. A. Valle, *Syllabus para Gemelos Digitales*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, 2025. [https://biomath.xyz/course/](https://biomath.xyz/course/)
